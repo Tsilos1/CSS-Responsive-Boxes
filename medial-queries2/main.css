@@ -37,10 +37,25 @@ body {
 }
 
 
-@media (min-width: 600px) {
-  flex-direction: column;
-  flex-wrap: wrap;
- }
+@media (min-width: 600px){
+  .container {
+    justify-content: flex-end;
+  }
+  
+  .f {
+    flex-grow: 2;
+  }
+  
+  .b {
+    max-width: 80%;
+  }
+  .c, .d, .e, .f {
+  max-width: 20%;
+  }
+  
+}
 
+
+ 
 
 
