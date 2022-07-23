@@ -21,7 +21,9 @@ body {
   flex-grow: 3;
 }
 
-
+.a, .b, .c {
+  margin: 1em;
+}
 
 @media (min-width: 600px) {
   .container {
